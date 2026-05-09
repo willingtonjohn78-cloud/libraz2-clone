@@ -391,27 +391,6 @@
     })();
     </script>
     <script src="script.js"></script>
-     <script>
-    function bookNow() {
-      const name = document.getElementById("name").value;
-      const phone = document.getElementById("phone").value;
-
-      fetch("/api/book", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json"
-        },
-        body: JSON.stringify({ name, phone })
-      })
-      .then(res => res.json())
-      .then(data => {
-        alert(data.message);
-        console.log(data);
-      })
-      .catch(err => {
-        console.error("Error:", err);
-      });
-    }
-  </script>
+     
   </body>
   </html>
