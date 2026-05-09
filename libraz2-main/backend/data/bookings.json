@@ -1,0 +1,47 @@
+[
+  {
+    "id": "LBS-00003",
+    "name": "Hammad Ali",
+    "phone": "+923063971829",
+    "email": "mr.hamad.7@gmail.com",
+    "promoCode": null,
+    "status": "Confirmed",
+    "createdAt": "2026-05-05T07:21:49.048Z"
+  },
+  {
+    "id": "LBS-00006",
+    "name": "Aliya",
+    "phone": "+923104500662",
+    "email": null,
+    "promoCode": "vouch30",
+    "selectedServices": [
+      {
+        "category": "Facials",
+        "service": "Regular Facial",
+        "rateLabel": "1800/-",
+        "amount": 1800
+      },
+      {
+        "category": "Skin Polishing",
+        "service": "Simple Skin Polish",
+        "rateLabel": "800/-",
+        "amount": 800
+      },
+      {
+        "category": "Threading",
+        "service": "Full Face w/ Eye Brows",
+        "rateLabel": "1600/-",
+        "amount": 1600
+      },
+      {
+        "category": "Manicure + Pedicure",
+        "service": "Whitening Manicure/Pedicure",
+        "rateLabel": "4000/-",
+        "amount": 4000
+      }
+    ],
+    "totalBill": 8200,
+    "status": "Confirmed",
+    "createdAt": "2026-05-05T07:55:30.014Z"
+  }
+]
